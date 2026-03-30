@@ -1,0 +1,26 @@
+FACIAL EMOTION MODEL BENCHMARK REPORT
+Model: ./fine-tuned-model/best_model.pt
+Test Set: ./dataset/val
+Date: 2026-03-26 17:33:45
+Device: cpu
+=================================================================
+
+              precision    recall  f1-score   support
+
+       Angry     0.8082    0.7864    0.7971      2041
+   Disgusted     0.9155    0.8653    0.8897      1990
+     Fearful     0.8849    0.8009    0.8408      1959
+       Happy     0.9019    0.8952    0.8985      2958
+     Neutral     0.7437    0.8726    0.8030      2983
+         Sad     0.7657    0.7064    0.7349      2405
+   Surprised     0.7951    0.8096    0.8023      2258
+
+    accuracy                         0.8240     16594
+   macro avg     0.8307    0.8195    0.8238     16594
+weighted avg     0.8273    0.8240    0.8242     16594
+
+Accuracy: 0.8240
+Weighted F1: 0.8242
+Macro F1: 0.8238
+Latency: 32.4 ms/frame
+Throughput: 31 FPS

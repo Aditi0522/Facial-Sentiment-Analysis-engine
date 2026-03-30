@@ -1,0 +1,31 @@
+{
+  "model": "EmotiEffLib_FineTuned_EfficientNetB0",
+  "test_samples": 16594,
+  "accuracy": 0.824,
+  "f1_weighted": 0.8242,
+  "f1_macro": 0.8238,
+  "per_class_f1": {
+    "Angry": 0.7971,
+    "Disgusted": 0.8897,
+    "Fearful": 0.8408,
+    "Happy": 0.8985,
+    "Neutral": 0.803,
+    "Sad": 0.7349,
+    "Surprised": 0.8023
+  },
+  "per_class_accuracy": {
+    "Angry": 0.7864,
+    "Disgusted": 0.8653,
+    "Fearful": 0.8009,
+    "Happy": 0.8952,
+    "Neutral": 0.8726,
+    "Sad": 0.7064,
+    "Surprised": 0.8096
+  },
+  "latency_ms": 32.43,
+  "fps": 30.8,
+  "device": "cpu",
+  "confidence_correct": 0.7871,
+  "confidence_wrong": 0.5275,
+  "classification_report_text": "              precision    recall  f1-score   support\n\n       Angry     0.8082    0.7864    0.7971      2041\n   Disgusted     0.9155    0.8653    0.8897      1990\n     Fearful     0.8849    0.8009    0.8408      1959\n       Happy     0.9019    0.8952    0.8985      2958\n     Neutral     0.7437    0.8726    0.8030      2983\n         Sad     0.7657    0.7064    0.7349      2405\n   Surprised     0.7951    0.8096    0.8023      2258\n\n    accuracy                         0.8240     16594\n   macro avg     0.8307    0.8195    0.8238     16594\nweighted avg     0.8273    0.8240    0.8242     16594\n"
+}
